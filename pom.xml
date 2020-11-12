@@ -46,7 +46,7 @@
           <artifactId>maven-release-plugin</artifactId>
           <version>3.0.0-M1</version>
       <configuration>
-        <arguments>-Dmessage="$message"</arguments>
+        <arguments>-Dmessage="${message}"</arguments>
       </configuration>
 </plugin>
   </plugins>
